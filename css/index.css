@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #21325e;
+  padding: 20px 50px 20px 100px;
+  box-shadow: 0px 5px #c0c0c0;
+}
+
+.header > h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Righteous", cursive;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .header {
+    padding: 20px;
+  }
+}
